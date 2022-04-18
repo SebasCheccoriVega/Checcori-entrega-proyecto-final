@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+/*Seccion de imagenes*/
+.section-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em;
+    grid-area: section;
+}
+
+.contenedor img {
+    max-width: 100%;
+    padding: 1em 1em;
+    margin-bottom: -5px;
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 2;
+}
+
+img:hover {
+    transform: scale(0.9);
+    z-index: 9;
+    transition: 0.5s;
+}
+
+/*Formulario*/
+.form{
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: form;
+}
+
+.speaker-form-header h1{
+    font-size: 30px;
+    margin-bottom:20px;
+}
+
+.speaker-form{
+    background-color: white;
+    border-radius: 3px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="password"],
+.form-row input[type="phone"]{
+    background-color: #FFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label{
+    margin-bottom: 15px;
+}
+
+.form-row button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 40px;
+    cursor: pointer;
+}
+
+.register{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.row{
+    padding: 1em; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
