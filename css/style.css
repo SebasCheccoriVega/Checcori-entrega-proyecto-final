@@ -1,3 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+/*color y letra*/
+/*Padding*/
+/*Margin*/
+/*Font size*/
+/*Bordes*/
+.section-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 2em;
+}
+.section-contenedor .section .contenedor .img-link img {
+  max-width: 100%;
+  padding: 1em 1em;
+  margin-bottom: -5px;
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+}
+.section-contenedor .section .contenedor .img-link img:hover {
+  transform: scale(0.9);
+  z-index: 9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  padding: 1em 1em;
+  margin-bottom: -5px;
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+}
+img:hover {
+  transform: scale(0.9);
+  z-index: 9;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/*color y letra*/
+/*Padding*/
+/*Margin*/
+/*Font size*/
+/*Bordes*/
+.form {
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .speaker-form {
+  background-color: white;
+  border-radius: 3px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form .speaker-form .form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form .speaker-form .form-row h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.form .speaker-form .form-row label {
+  margin-bottom: 15px;
+}
+.form .speaker-form .form-row input[type=text],
+.form .speaker-form .form-row input[type=email],
+.form .speaker-form .form-row input[type=password],
+.form .speaker-form .form-row input[type=phone] {
+  background-color: white;
+  border: 1px solid #D6D9DC;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+.form .speaker-form .form-row button {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 40px;
+  cursor: pointer;
+}
+.form .speaker-form .form-row .register {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.form .speaker-form .form-row .link {
+  text-decoration: none;
+  color: black;
+}
 
 /*# sourceMappingURL=style.css.map */

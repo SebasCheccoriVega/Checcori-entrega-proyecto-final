@@ -1,0 +1,72 @@
+@import "variables";
+
+.form{
+    color:$color-letra-formulario;
+    background-color: $background-form;
+    font-size: $font-size-form;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .speaker-form{
+            background-color: $background-form;
+            border-radius: $border-radius-speaker-form;
+            padding: $padding-speaker-form;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+    
+            .form-row{
+                margin-bottom: $margin-form-row;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                h1{
+                    font-size: $font-size-speaker-form-h1;
+                    margin-bottom:$margin-speaker-form-h1;
+                }
+
+                label{
+                    margin-bottom: $margin-label;
+                }
+    
+                input[type="text"],
+                input[type="email"],
+                input[type="password"],
+                input[type="phone"]{
+                    background-color: $background-form;
+                    border:$border-formulario;
+                    border-radius: $border-radius-formulario;
+                    width: 100%;
+                    padding: $padding-form-row-input;
+                    font-size: $font-size-form-row-input;
+                }
+    
+                button{
+                    font-size: $font-size-button;
+                    font-weight: bold;
+                    color: $color-letra-buttom-form;
+                    background-color: $background-button-form;
+                    border: $border-button;
+                    border-radius: $border-radius-button;
+                    padding: $padding-button;
+                    cursor: pointer;
+                }
+                
+                .register{
+                    text-align: $text-aling-register;
+                    text-decoration: $text-decoration-register;
+                    color: $color-letra-link;
+                }
+                
+                .link{
+                    text-decoration: $text-decoration-link;
+                    color: $color-letra-link;
+                }
+            }
+    }
+}
