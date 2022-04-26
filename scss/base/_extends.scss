@@ -1,0 +1,19 @@
+%text{
+    text-decoration: none;
+}
+
+%max-width{
+    max-width: 100%;
+}
+
+%transicion-img{
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 2; 
+}
+
+%tranform-hover{
+    transform: scale(0.9);
+    z-index: 9;
+    transition: 0.5s;
+}

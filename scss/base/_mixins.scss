@@ -1,0 +1,27 @@
+@mixin flexbox-section($valor, $valor2, $valor3){
+    display: $valor;
+    justify-content: $valor2;
+    align-items: $valor3;
+}
+
+@mixin flexbox-form($valor, $valor2, $valor3, $valor4) {
+    display: $valor;
+    align-items: $valor2;
+    flex-direction: $valor3;
+    flex-wrap: $valor4;
+}
+
+@mixin flex-box-speaker-form ($valor, $valor2, $valor3, $valor4){
+    display: $valor;
+    justify-content: $valor2;
+    flex-direction: $valor3;
+    flex-wrap: $valor4;
+}
+
+@mixin flex-box-form-row($valor, $valor2, $valor3, $valor4) {
+    display: $valor;
+    justify-content: $valor2;
+    flex-direction: $valor3;
+    flex-wrap: $valor4;
+}
+
