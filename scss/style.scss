@@ -1,8 +1,16 @@
-@import "body";
+/*Componentes*/
+@import "componentes/body";
 
-@import "seccion";
+@import "componentes/seccion";
 
-@import "registro";
+@import "componentes/registro";
+
+/*Base*/
+@import "base/mapas";
+
+@import "base/extends";
+
+
 
 
 

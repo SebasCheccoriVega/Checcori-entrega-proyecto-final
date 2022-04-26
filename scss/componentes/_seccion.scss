@@ -1,0 +1,32 @@
+@import "../base/variables";
+@import "../base/mapas";
+@import "../base/extends";
+@import "../base/mixins";
+
+.section-contenedor{
+    @include flexbox-section(flex, center, center);
+    padding: $padding-section-contenedor;
+
+    .section{
+        
+        .contenedor{
+            
+            .img-link{
+                
+                img{
+                    @extend %max-width;
+                    padding: $padding-img-section;
+                    margin-bottom: $margin-img-section;
+                    @extend %transicion-img;
+
+                    &:hover {
+                        @extend %tranform-hover;
+                        cursor: $cursor-img;
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}
