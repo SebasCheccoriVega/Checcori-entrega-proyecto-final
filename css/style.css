@@ -28,17 +28,17 @@ footer {
 .form .speaker-form .form-row input[type=text],
 .form .speaker-form .form-row input[type=email],
 .form .speaker-form .form-row input[type=password],
-.form .speaker-form .form-row input[type=phone], .section-contenedor .section .contenedor .img-link img {
+.form .speaker-form .form-row input[type=phone], img, .section-contenedor .section .contenedor .img-link img {
   max-width: 100%;
 }
 
-.section-contenedor .section .contenedor .img-link img {
+img, .section-contenedor .section .contenedor .img-link img {
   transition: all 0.3s ease-out;
   position: relative;
   z-index: 2;
 }
 
-.section-contenedor .section .contenedor .img-link img:hover {
+img:hover, .section-contenedor .section .contenedor .img-link img:hover {
   transform: scale(0.9);
   z-index: 9;
   transition: 0.5s;
@@ -58,6 +58,14 @@ footer {
   cursor: pointer;
 }
 
+img {
+  padding: 1em 1em;
+  margin-bottom: -5px;
+}
+img:hover {
+  cursor: pointer;
+}
+
 .form .speaker-form .form-row .link, .form .speaker-form .form-row .register {
   text-decoration: none;
 }
@@ -65,17 +73,17 @@ footer {
 .form .speaker-form .form-row input[type=text],
 .form .speaker-form .form-row input[type=email],
 .form .speaker-form .form-row input[type=password],
-.form .speaker-form .form-row input[type=phone], .section-contenedor .section .contenedor .img-link img {
+.form .speaker-form .form-row input[type=phone], .section-contenedor .section .contenedor .img-link img, img {
   max-width: 100%;
 }
 
-.section-contenedor .section .contenedor .img-link img {
+.section-contenedor .section .contenedor .img-link img, img {
   transition: all 0.3s ease-out;
   position: relative;
   z-index: 2;
 }
 
-.section-contenedor .section .contenedor .img-link img:hover {
+.section-contenedor .section .contenedor .img-link img:hover, img:hover {
   transform: scale(0.9);
   z-index: 9;
   transition: 0.5s;
@@ -147,20 +155,20 @@ footer {
   text-decoration: none;
 }
 
-.section-contenedor .section .contenedor .img-link img, .form .speaker-form .form-row input[type=text],
+.section-contenedor .section .contenedor .img-link img, img, .form .speaker-form .form-row input[type=text],
 .form .speaker-form .form-row input[type=email],
 .form .speaker-form .form-row input[type=password],
 .form .speaker-form .form-row input[type=phone] {
   max-width: 100%;
 }
 
-.section-contenedor .section .contenedor .img-link img {
+.section-contenedor .section .contenedor .img-link img, img {
   transition: all 0.3s ease-out;
   position: relative;
   z-index: 2;
 }
 
-.section-contenedor .section .contenedor .img-link img:hover {
+.section-contenedor .section .contenedor .img-link img:hover, img:hover {
   transform: scale(0.9);
   z-index: 9;
   transition: 0.5s;
