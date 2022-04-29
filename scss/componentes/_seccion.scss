@@ -30,3 +30,15 @@
         }
     }
 }
+
+img{
+    @extend %max-width;
+    padding: $padding-img-section;
+    margin-bottom: $margin-img-section;
+    @extend %transicion-img;
+
+    &:hover {
+        @extend %tranform-hover;
+        cursor: $cursor-img;
+    }
+}
