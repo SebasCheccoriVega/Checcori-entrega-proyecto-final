@@ -25,3 +25,20 @@
     flex-wrap: $valor4;
 }
 
+@mixin img($valor, $valor2, $valor3, $valor4, $valor5, $valor6, $valor7) {
+    max-width: $valor;
+    padding: $valor2;
+    margin: $valor3;
+    transition: $valor4;
+    position: $valor5;
+    z-index: $valor6;
+    border-radius: $valor7; 
+}
+
+@mixin img-hover($valor, $valor2, $valor3, $valor4){
+    transform: $valor;
+    z-index: $valor2;
+    transition: $valor3;
+    cursor: $valor4;
+}
+

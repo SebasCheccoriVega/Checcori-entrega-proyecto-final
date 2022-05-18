@@ -1,0 +1,9 @@
+@import "../base/extends";
+
+.caja{
+    @extend %caja;
+
+    &:hover {
+        @extend %hover;
+    }
+}

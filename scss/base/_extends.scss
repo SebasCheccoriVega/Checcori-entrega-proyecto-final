@@ -1,19 +1,15 @@
-%text{
-    text-decoration: none;
-}
-
-%max-width{
-    max-width: 100%;
-}
-
-%transicion-img{
+%caja{
     transition: all 0.3s ease-out;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 2em;
+    border-radius: 29px;
 }
 
-%tranform-hover{
+%hover {
     transform: scale(0.9);
     z-index: 9;
     transition: 0.5s;
+    cursor: pointer;
 }

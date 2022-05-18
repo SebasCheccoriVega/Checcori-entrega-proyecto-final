@@ -1,6 +1,5 @@
 @import "../base/variables";
 @import "../base/mapas";
-@import "../base/extends";
 @import "../base/mixins";
 
 .form{
@@ -36,7 +35,7 @@
                     background-color: map-get($colores-principales, w-h );
                     border:$border-formulario;
                     border-radius: $border-radius-formulario;
-                    @extend %max-width;
+                    max-width: 100%;
                     padding: $padding-form-row-input;
                     font-size: $font-size-form-row-input;
                 }
@@ -54,12 +53,12 @@
                 
                 .register{
                     text-align: $text-aling-register;
-                    @extend %text;
+                    text-decoration: none;
                     color: map-get($colores-principales, b-l );
                 }
                 
                 .link{
-                    @extend %text;
+                    text-decoration: none;
                     color: map-get($colores-principales, b-l );
                 }
             }
