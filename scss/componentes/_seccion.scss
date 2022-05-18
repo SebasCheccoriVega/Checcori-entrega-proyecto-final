@@ -1,6 +1,5 @@
 @import "../base/variables";
 @import "../base/mapas";
-@import "../base/extends";
 @import "../base/mixins";
 
 .section-contenedor{
@@ -14,14 +13,10 @@
             .img-link{
                 
                 img{
-                    @extend %max-width;
-                    padding: $padding-img-section;
-                    margin-bottom: $margin-img-section;
-                    @extend %transicion-img;
+                    @include img(100%, 1em 1em, -5px, all 0.3s ease-out, relative, 2, 29px);
 
                     &:hover {
-                        @extend %tranform-hover;
-                        cursor: $cursor-img;
+                        @include img-hover(scale(0.9), 9, 0.5s, pointer);
                     }
                 }
                 
@@ -32,13 +27,10 @@
 }
 
 img{
-    @extend %max-width;
-    padding: $padding-img-section;
-    margin-bottom: $margin-img-section;
-    @extend %transicion-img;
+    @include img(100%, 1em 1em, -5px, all 0.3s ease-out, relative, 2, 29px);
 
     &:hover {
-        @extend %tranform-hover;
-        cursor: $cursor-img;
+        @include img-hover(scale(0.9), 9, 0.5s, pointer);
     }
 }
+
