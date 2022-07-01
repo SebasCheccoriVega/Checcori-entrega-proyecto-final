@@ -45,9 +45,8 @@
                             <a class="nav-link" href="./iniciarsesion.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar Sesion</font></font></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./carro-de-compras.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><i class="fa-solid fa-cart-shopping"></i></font></font></a>
+                            <a class="nav-link" href="./poleras.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Productos & carrito</font></font></a><a href="./poleras.html"></a>
                         </li>
-                    </ul>
                     <form class="d-flex">
                         <input class="form-control me-sm-2 rounded-1" type="text" placeholder="Búsqueda">
                         <button class="btn btn-secondary my-2 my-sm-0 rounded-1" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Búsqueda</font></font></button>
@@ -56,88 +55,210 @@
         </div>
     </nav>
 
-    <div class="container">
-        <h2 class="text-center m-5">POLERAS</h2>
-        <div class="row">
-            <div class="col border caja">
-                <img width="100%" src="./img/negro.jpg" alt="">
-                <p>POLERA SIN CAPUCHA NEGRO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
+    <ul
+    class="nav nav-pills mb-3 py-3 container"
+    id="pills-tab"
+    role="tablist"
+    >
+    <li class="nav-item" role="presentation">
+    <a
+    class="nav-link active"
+    id="pills-profile-tab"
+    data-bs-toggle="pill"
+    data-bs-target="#pills-profile"
+    type="button"
+    role="tab"
+    aria-controls="pills-profile"
+    aria-selected="false"
+    >Productos</a
+    >
+    </li>
+    <li class="nav-item" role="presentation">
+    <a
+    class="nav-link"
+    id="pills-contact-tab"
+    data-bs-toggle="pill"
+    data-bs-target="#pills-contact"
+    type="button"
+    role="tab"
+    aria-controls="pills-contact"
+    aria-selected="false"
+    >Carrito</a
+    >
+    </li>
+    </ul>
+
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+        Producto Añadido al carrito!
+        </div>
+        <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Producto removido!
+        </div>
+    
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade "
+            id="pills-home"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+          >
+            1
+          </div>
+          <div
+            class="tab-pane fade show active container"
+            id="pills-profile"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+          >
+
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">HODDIE ANARANJADO</h5>
+              <img src="./img/hoddie anaranjado.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 89</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
             </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/plomo.jpg" alt=""> 
-                <p>POLERA SIN CAPUCHA PLOMO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">HODDIE BLANCO</h5>
+              <img src="./img/hoddie blanco.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 89</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
             </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/blanco.jpg" alt="">
-                <p>POLERA SIN CAPUCHA BLANCO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">HODDIE ROJO</h5>
+              <img src="./img/hoddie rojo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 89</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
             </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">HODDIE VAINILLA</h5>
+              <img src="./img/hoddie vainilla.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 89</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SIN CAP AMARILLO</h5>
+              <img src="./img/amarillo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 59</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SIN CAP BLANCO</h5>
+              <img src="./img/blanco.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 59</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SIN CAP NEGRO</h5>
+              <img src="./img/negro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 59</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SIN CAP PLOMO</h5>
+              <img src="./img/plomo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 59</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-secondary rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">SIN CAP VAINILLA</h5>
+              <img src="./img/vainilla.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="text-primary">Precio: <span class="precio">$ 59</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
 
-        <div class="row">
-            <div class="col border caja">
-                <img width="100%" src="./img/vainilla.jpg" alt="">
-                <p>POLERA SIN CAPUCHA VAINILLA</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/amarillo.jpg" alt="">
-                <p>POLERA SIN CAPUCHA AMARILLO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/hoddie rojo.jpg" alt="">
-                <p>HODDIE OVERSIZE ROJO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table-secondary table-hover">
+        <thead>
+          <tr class="text-dark">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-dark">Total: 0</h3>
         </div>
-
-        <div class="row">
-            <div class="col border caja">
-                <img width="100%" src="./img/negro.jpg" alt="">
-                <p>POLERA SIN CAPUCHA NEGRO</p>
-                <div class="shop">
-                    <p>$59.00</p>
-                    <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/plomo.jpg" alt=""> 
-                <p>POLERA SIN CAPUCHA PLOMO</p>
-                    <div class="shop">
-                        <p>$59.00</p>
-                        <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-            </div>
-            <div class="col border caja">
-                <img width="100%" src="./img/blanco.jpg" alt="">
-                <p>POLERA SIN CAPUCHA BLANCO</p>
-                    <div class="shop">
-                        <p>$59.00</p>
-                        <button class="car"><i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-            </div>
+        <div class="col d-flex justify-content-end">
+          <button class="btn btn-success">COMPRAR</button>
         </div>
+      </div>
+      
+      </div>
     </div>
 
     <footer class="footer">
@@ -153,7 +274,18 @@
             </div>
         </div>
     </footer>
-        
-    <script src="./boostsrap/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/app.js"></script>
 </body>
 </html>

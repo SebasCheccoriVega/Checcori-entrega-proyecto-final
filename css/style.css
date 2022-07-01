@@ -108,43 +108,38 @@ footer {
   color: black;
 }
 
-.caja {
-  transition: all 0.3s ease-out;
-  position: relative;
-  z-index: 2;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 2em;
-  border-radius: 29px;
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.caja:hover {
-  cursor: pointer;
-}
-
-.shop {
+.table__productos {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.car {
-  font-size: 2em;
+.table__productos > img {
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.table__cantidad > input {
+  width: 40px;
   border: none;
-  border-radius: 100%;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.hide, .remove {
+  display: none;
 }
 
 /*Base*/
-.caja {
-  transition: all 0.3s ease-out;
-  position: relative;
-  z-index: 2;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin: 2em;
-  border-radius: 29px;
-}
-
-.caja:hover {
-  cursor: pointer;
-}
 
 /*# sourceMappingURL=style.css.map */
