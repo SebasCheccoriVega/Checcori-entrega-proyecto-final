@@ -7,3 +7,15 @@
         @extend %hover;
     }
 }
+
+.shop{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car{
+    font-size: 2em;
+    border: none;
+    border-radius: 100%;
+}

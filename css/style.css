@@ -28,7 +28,7 @@ footer {
   align-items: center;
   padding: 2em 2em;
 }
-.section-contenedor .section .contenedor .img-link img {
+.section-contenedor .section .contenedor .img-link .img {
   max-width: 100%;
   padding: 1em 1em;
   margin: -5px;
@@ -37,23 +37,7 @@ footer {
   z-index: 2;
   border-radius: 29px;
 }
-.section-contenedor .section .contenedor .img-link img:hover {
-  transform: scale(0.9);
-  z-index: 9;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  padding: 1em 1em;
-  margin: -5px;
-  transition: all 0.3s ease-out;
-  position: relative;
-  z-index: 2;
-  border-radius: 29px;
-}
-img:hover {
+.section-contenedor .section .contenedor .img-link .img:hover {
   transform: scale(0.9);
   z-index: 9;
   transition: 0.5s;
@@ -134,10 +118,19 @@ img:hover {
 }
 
 .caja:hover {
-  transform: scale(0.9);
-  z-index: 9;
-  transition: 0.5s;
   cursor: pointer;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car {
+  font-size: 2em;
+  border: none;
+  border-radius: 100%;
 }
 
 /*Base*/
@@ -151,9 +144,6 @@ img:hover {
 }
 
 .caja:hover {
-  transform: scale(0.9);
-  z-index: 9;
-  transition: 0.5s;
   cursor: pointer;
 }
 
