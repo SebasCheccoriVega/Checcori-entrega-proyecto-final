@@ -12,7 +12,7 @@
             
             .img-link{
                 
-                img{
+                .img{
                     @include img(100%, 1em 1em, -5px, all 0.3s ease-out, relative, 2, 29px);
 
                     &:hover {
@@ -23,14 +23,6 @@
             }
             
         }
-    }
-}
-
-img{
-    @include img(100%, 1em 1em, -5px, all 0.3s ease-out, relative, 2, 29px);
-
-    &:hover {
-        @include img-hover(scale(0.9), 9, 0.5s, pointer);
     }
 }
 
