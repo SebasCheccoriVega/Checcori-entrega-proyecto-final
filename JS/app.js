@@ -137,3 +137,17 @@ window.onload = function(){
     renderCarrito()
   }
 }
+
+
+//alerta comprar
+
+let btn = document.getElementById('myBtn');
+
+btn.addEventListener('click', () => {
+  Swal.fire({
+    title: 'Genial',
+    text: 'Su compra se ha realizado',
+    icon: 'success',
+    confirmButtonText: 'Cool',
+  });
+});
