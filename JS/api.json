@@ -1,0 +1,56 @@
+[
+    {
+        "precio": 89,
+        "id": 1,
+        "title": "hoddie anaranjado",
+        "thumbnailUrl": ""
+    },
+    {
+        "precio": 89,
+        "id": 2,
+        "title": "hoddie blanco",
+        "thumbnailUrl": "https://picsum.photos/id/10/600"
+    },
+    {
+        "precio": 89,
+        "id": 3,
+        "title": "hoddie rojo",
+        "thumbnailUrl": "https://picsum.photos/id/20/600"
+    },
+    {
+        "precio": 89,
+        "id": 4,
+        "title": "hoddie vainilla",
+        "thumbnailUrl": "https://picsum.photos/id/30/600"
+    },
+    {
+        "precio": 59,
+        "id": 5,
+        "title": "amarillo",
+        "thumbnailUrl": "https://picsum.photos/id/40/600"
+    },
+    {
+        "precio":  59,
+        "id": 6,
+        "title": "blanco",
+        "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+        "precio":  59,
+        "id": 7,
+        "title": "negro",
+        "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+        "precio":  59,
+        "id": 8,
+        "title": "plomo",
+        "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+        "precio":  59,
+        "id": 9,
+        "title": "vainilla",
+        "thumbnailUrl": "https://picsum.photos/id/50/600"
+    }
+]
