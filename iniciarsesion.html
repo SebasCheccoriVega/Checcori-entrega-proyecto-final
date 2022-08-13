@@ -42,38 +42,55 @@
                             <a class="nav-link" href="./accesorios.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Accesorios</font></font></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./iniciarsesion.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar Sesion</font></font></a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="./poleras.html"><i class="fa-solid fa-cart-shopping"></i></font></font></a><a href="./poleras.html"></a>
                         </li>
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2 rounded-1" type="text" placeholder="Búsqueda">
-                        <button class="btn btn-secondary my-2 my-sm-0 rounded-1" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Búsqueda</font></font></button>
-                    </form>
+                        <li class="nav-item">
+                            <a id="boton-login" class="nav-link" href="./iniciarsesion.html?=ingresar"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Iniciar Sesion</font></font></a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="boton-signup" class="nav-link" href="./iniciarsesion.html?f=registrar"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">registrarte</font></font></a>
+                        </li>
                 </div>
         </div>
+    </div>
     </nav>
 
     <form class="form">
         <div class="speaker-form">
             <div class="form-row">
                 <h1>Iniciar Sesion</h1>
-                <label id="name" for="">Name</label>
-                <input id="name" type="text" placeholder="" name="name required">
+                <P id="mensaje-bienvenida">
+                ¿Ya tienes cuenta? <a href="./iniciarsesion.html"><b>INGRESÁ</b></a></P>
+                <ul class="contenido">
+            </div>
+
+            <div class="form-row">
+                <label id="label-nombre" for="nombre"><b>Nombre y apellido:</b></label>
+                <input type="text" id="input-nombre" name="nombre" pattern="^[a-zA-Z\s]*$" required minlength="6" maxlength="50" title="Solo letras.">
             </div>
     
             <div class="form-row">
-                <label id="email" for="">Email</label>
-                <input id="email" type="email" placeholder="" name="name required">
+                <label id="label-usuario"for="nombre"><b>Nombre de usuario:</b></label>
+                <input type="text" id="input-usuario" name="usuario" pattern="^[A-Za-z0-9]*$" required minlength="4" maxlength="20" title="Solo letras y números.">
             </div>
-    
+            
             <div class="form-row">
-                <button class="button" type="submit">ingresar</button>
-                <div class="register">
-                    <p class="paragraph">¿No tienes cuenta?</p>
-                    <a class="link" href="registrar.html">Registrate</a>
-                </div> 
+                <label id="label-email" for="email"><b>Correo electrónico:</b></label>
+                <input type="email" id="input-email" pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$" name="email" required="required" title="Debe contener '@', sin espacios.">
+            </div>
+
+            <div class="form-row">
+                <label id="label-password" for="password"><b>Contraseña:</b> <br>(al menos 6 caracteres, letras y números)</label>
+                <input type="password" id="input-password" pattern="^[A-Za-z0-9]*$" name="password" required="required" minlength="6" title="Solo letras y números.">
+            </div>
+            
+            <div class="form-row">
+                <label id="label-repetir-password"for="repetir-password"><b>Repetir contraseña:</b></label>
+                <input type="password" id="input-repetir-password" pattern="^[A-Za-z0-9]*$" name="repetir-password" minlength="6" required="required" title="Solo letras y números">
+            </div>
+
+            <div class="form-row">
+                <button class="button" type="submit" id="boton-registro">REGISTRARME</button>
             </div>
         </div>
     </form>
@@ -91,7 +108,6 @@
             </div>
         </div>
     </footer>
-        
-    <script src="./boostsrap/bootstrap.bundle.min.js"></script>
+    <script src="./JS/form.js"></script>
 </body>
 </html>
